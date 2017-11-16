@@ -232,6 +232,9 @@ class Throttle(object):
         Announce the delay if it exceeds a preset limit.
 
         """
+        # Actually, we aren't going to wait.
+        return
+
         if seconds <= 0:
             return
 
