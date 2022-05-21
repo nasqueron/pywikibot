@@ -101,3 +101,4 @@ memento_client>=0.5.1,!=0.6.0
 # pywikibot prefers using the inbuilt bz2 module if python was compiled with
 # bz2 support. But if it wasn't, bz2file is used instead.
 # bz2file
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
